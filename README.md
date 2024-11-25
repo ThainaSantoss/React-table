@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Lista de Estudantes
 
-First, run the development server:
+Este é um projeto de prática desenvolvido em **Next.js** para listar e gerenciar informações de estudantes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Objetivo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A lista exibe informações básicas dos estudantes, incluindo:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   Nome
+-   E-mail
+-   Status (ativo/inativo)
+-   Notas das provas
+-   Média final (calculada automaticamente)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Funcionalidades
 
-## Learn More
+-   **Cálculo da média final:** Baseado nas notas inseridas.
+-   **Indicação de status:** Mostra se o aluno está ativo ou inativo.
+-   **Interface estilizada:** Utilizando **Tailwind CSS** ou outra abordagem para garantir um design simples e funcional.
 
-To learn more about Next.js, take a look at the following resources:
+## Tecnologias Utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   **Next.js**: Framework React para construção de interfaces.
+-   **TypeScript**: Para maior segurança no código.
+-   **CSS Framework**: Tailwind CSS ou similar para estilização rápida.
+-   **Mock de dados**: Lista de estudantes pré-definida para teste.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Como Rodar o Projeto
 
-## Deploy on Vercel
+1.  Clone o repositório:
+    
+    bash
+    
+    Copiar código
+    
+    `git clone https://github.com/seu-usuario/seu-projeto.git
+    cd seu-projeto` 
+    
+2.  Instale as dependências:
+    
+    bash
+    
+    Copiar código
+    
+    `npm install` 
+    
+3.  Execute o servidor de desenvolvimento:
+    
+    bash
+    
+    Copiar código
+    
+    `npm run dev` 
+    
+4.  Acesse o projeto no navegador: [http://localhost:3000](http://localhost:3000)
+    
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Próximos Passos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+-   **Melhorar funcionalidades:** Adicionar filtros para busca e ordenação.
+-   **Integração com API:** Conectar a um backend para persistência dos dados.
+-   **Validações:** Garantir que todas as notas sejam válidas.
