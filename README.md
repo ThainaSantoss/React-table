@@ -3,6 +3,10 @@
 
 Este é um projeto de prática desenvolvido em **Next.js** para listar e gerenciar informações de estudantes.
 
+## Captura do Projeto
+
+<img src="/exercise-table-react/public/images/preview.png"></img>
+
 ## Objetivo
 
 A lista exibe informações básicas dos estudantes, incluindo:
