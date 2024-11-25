@@ -5,7 +5,7 @@ Este é um projeto de prática desenvolvido em **Next.js** para listar e gerenci
 
 ## Captura do Projeto
 
-<img src="/exercise-table-react/public/images/preview.png"></img>
+<img src="/exercise-table-react/React-table/public/images/preview.png"></img>
 
 ## Objetivo
 
